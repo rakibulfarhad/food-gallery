@@ -1,0 +1,76 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+.orange-color{
+    color: orange;
+}
+.link-button{
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 0px;
+}
+.half-width{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.half-width img{
+    width: 100%;
+
+}
+.top-sec{
+    background-image:url(image/shapes/Frame\ 58.jpg);
+}
+.mid-sec{
+    background-image: url(image/shapes/Frame\ 57.jpg);
+}
+.mid-level{
+    text-align: center;
+}
+.Recipie{
+    width: 27.33%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 7px gray;
+}
+.Recipie img{
+    width: 350px;
+}
+.one-third{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.social-media{
+    width: 80%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    padding: 20px 10px;
+    box-shadow: 1px 1px 5px gray;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 100px 90px;
+}
